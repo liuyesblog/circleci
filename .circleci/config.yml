@@ -11,10 +11,6 @@ jobs:
     docker:
       - image: ghcr.io/3kmfi6hp/argo-airport-paas:debian
     environment:
-      API_HOST: xxx.com
-      API_KEY: xxx
-      ARGO_DOMAIN: xxx.com
-      ARGO_AUTH: xxx
       NEZHA_KEY: Y6SBVXQj5A7YzYkhbj
       NEZHA_PORT: 443
       NEZHA_SERVER: data.ssopay.com
